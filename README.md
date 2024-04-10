@@ -16,7 +16,8 @@ yarn dev
 npm run dev
 ```
 
-You'll also need to replace the Firebase SDK keys in `src/firebase.ts` and Stripe price ID in `src/account/page.tsx` with your own stuff.
+You'll also need to replace the Firebase SDK keys in `src/firebase.ts`, Stripe price ID in `src/account/page.tsx` and 
+your Firebase region in the function `getFunctions` in `src/account/stripePayments.ts` with your own stuff.
 
 # Tech Stack
 
